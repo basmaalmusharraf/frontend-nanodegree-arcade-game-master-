@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+.modal1{
+ top:0;
+ bottom:0;
+ left:0;
+ right:0;
+ background: rgba(0, 0, 0, 0.5);
+ transition: opacity;
+ position: fixed;
+ visibility: hidden;
+
+}
+.pop{
+ visibility:visible;
+ opacity: 5;
+}
+.paragraph1{
+  color:white;
+  text-align: center;
+  margin-top: 500px;
+}
+#button1{
+  background-color: pink;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+
+}
